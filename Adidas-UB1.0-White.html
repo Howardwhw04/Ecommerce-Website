@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>APPARELS.CO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="AC.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <!-- Google Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+        <link rel="stylesheet" href="OS-Search.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="SinglePro.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <center>
+                <a href="Home.html">
+                    <img src="IMAGES/Logo.jpg" class="imageLogo"></img>
+                </a>
+            </center>
+        </div>
+
+        <div class="topnav">
+            <a href="Home.html">Home</a>
+            <a class="active" href="OnlineShop.html">Online Shop</a>
+            <a href="Services.html">Services</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Feedback.html">Feedback</a>
+
+            <div class="dropdown">
+                <button class="dropdown-button">Account 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Account-Login.html">Login</a>
+                    <a href="Account-SignUp.html">Sign Up</a>
+                </div>
+            </div> 
+
+            <div id="search-container">
+                <input type="search" id="search-input" placeholder="Search..." >  
+                <button id="search">
+                    <div style="text-align: center;"class="fa fa-search"></div>
+                </button>
+            </div>   
+        </div>
+
+        <div class="SPcontainer">
+            <section id="prodetails" class="section-p1">
+                <div class="single-pro-image">
+                    <img src="IMAGES/Adidas-UB1.0-White.jpg" width="200%" id="MainImg" alt="">
+                </div>
+                
+                <div class="single-pro-details">
+                    <h4>Adidas UB1.0 White</h4>
+                    <h2>Rm 780</h2>
+                    <select>
+                        <option>Select Size (UK)</option></option>
+                        <option value="4">4</option>
+                        <option value="4.5">4.5</option>
+                        <option value="5">5</option>
+                        <option value="5.5">5.5</option>
+                        <option value="6">6</option>
+                        <option value="6.5">6.5</option>
+                        <option value="7">7</option>
+                        <option value="7.5">7.5</option>
+                        <option value="8">8</option>
+                        <option value="8.5">8.5</option>
+                        <option value="9">9</option>
+                        <option value="9.5">9.5</option>
+                        <option value="10">10</option>
+                        <option value="10.5">10.5</option>
+                        <option value="11">11</option>
+                        <option value="11.5">11.5</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                    </select>
+
+                    <input type="number" value="1" min="1" max="99">
+                    <button>Add To Cart</button>
+                    <h4>Product Details</h4>
+                    <span>Adidas Ultra Boost White 1.0 shoes are a sleek and stylish footwear option that combine performance 
+                        and style to create a truly versatile shoe. The primeknit upper provides a breathable and comfortable 
+                        fit that is both supportive and flexible. The shoe features a Boost midsole, which provides a 
+                        responsive and cushioned ride that helps absorb shock and reduce fatigue. The rubber outsole provides 
+                        excellent grip and traction on a variety of surfaces, making these shoes perfect for a range of 
+                        activities such as running, walking, or training.</span>
+                </div>
+                
+                <!--Script-->
+                <script src="OS-Search.js"></script>
+
+            </section>
+        </div>
+ 
+        <div class="footer">
+            <a>Copyright © 2022 APPARELS.CO</a>
+        </div>
+ 
+     </body>
+ </html>
